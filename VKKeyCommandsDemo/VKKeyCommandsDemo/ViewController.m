@@ -23,12 +23,17 @@
         NSLog(@"11");
     }];
     
+    
+    
     [[VKShakeCommand sharedInstance]registerShakeCommandWithAction:^{
         
         NSLog(@"11");
     }];
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        [[VKKeyCommands sharedInstance] unregisterKeyCommandWithInput:@"x" modifierFlags:UIKeyModifierCommand];
+        
         [[VKShakeCommand sharedInstance] removeShakeCommand];
         
     });
