@@ -34,7 +34,7 @@
         
         [[VKKeyCommands sharedInstance] unregisterKeyCommandWithInput:@"x" modifierFlags:UIKeyModifierCommand];
         
-        [[VKShakeCommand sharedInstance] removeShakeCommand];
+        [[VKShakeCommand sharedInstance] unregisterKeyShakeCommand];
         
     });
 }

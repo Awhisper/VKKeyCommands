@@ -62,7 +62,7 @@ static BOOL _vkShakeCommandEnable = NO;
     
 }
 
--(void)removeShakeCommand
+-(void)unregisterKeyShakeCommand
 {
     _vkShakeCommandHandle = nil;
     

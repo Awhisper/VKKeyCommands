@@ -14,7 +14,7 @@
 
 - (void)registerShakeCommandWithAction:(void (^)(void))block;
 
-- (void)removeShakeCommand;
+- (void)unregisterKeyShakeCommand;
 
 - (void)shakeShake;
 
