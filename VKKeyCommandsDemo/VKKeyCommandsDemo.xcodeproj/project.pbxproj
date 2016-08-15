@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C24CAD81D5DBF1F00A0A18C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C24CAD71D5DBF1F00A0A18C /* main.m */; };
+		6C24CADB1D5DBF1F00A0A18C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C24CADA1D5DBF1F00A0A18C /* AppDelegate.m */; };
+		6C24CADE1D5DBF1F00A0A18C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C24CADD1D5DBF1F00A0A18C /* ViewController.m */; };
+		6C24CAE11D5DBF2000A0A18C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C24CADF1D5DBF2000A0A18C /* Main.storyboard */; };
+		6C24CAE31D5DBF2000A0A18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C24CAE21D5DBF2000A0A18C /* Assets.xcassets */; };
+		6C24CAE61D5DBF2000A0A18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C24CAE41D5DBF2000A0A18C /* LaunchScreen.storyboard */; };
+		6C24CAF01D5DBF2A00A0A18C /* VKKeyCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C24CAEF1D5DBF2A00A0A18C /* VKKeyCommands.m */; };
+		6C24CAF41D5DC7D000A0A18C /* UIWindow+VKShakeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C24CAF31D5DC7D000A0A18C /* UIWindow+VKShakeCommand.m */; };
+		6C24CAF71D5DCD1800A0A18C /* VKShakeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C24CAF61D5DCD1800A0A18C /* VKShakeCommand.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C24CAD31D5DBF1F00A0A18C /* VKKeyCommandsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKKeyCommandsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C24CAD71D5DBF1F00A0A18C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C24CAD91D5DBF1F00A0A18C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C24CADA1D5DBF1F00A0A18C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C24CADC1D5DBF1F00A0A18C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C24CADD1D5DBF1F00A0A18C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C24CAE01D5DBF2000A0A18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C24CAE21D5DBF2000A0A18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C24CAE51D5DBF2000A0A18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C24CAE71D5DBF2000A0A18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C24CAEE1D5DBF2A00A0A18C /* VKKeyCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKKeyCommands.h; sourceTree = "<group>"; };
+		6C24CAEF1D5DBF2A00A0A18C /* VKKeyCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKKeyCommands.m; sourceTree = "<group>"; };
+		6C24CAF21D5DC7D000A0A18C /* UIWindow+VKShakeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+VKShakeCommand.h"; sourceTree = "<group>"; };
+		6C24CAF31D5DC7D000A0A18C /* UIWindow+VKShakeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+VKShakeCommand.m"; sourceTree = "<group>"; };
+		6C24CAF51D5DCD1800A0A18C /* VKShakeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKShakeCommand.h; sourceTree = "<group>"; };
+		6C24CAF61D5DCD1800A0A18C /* VKShakeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKShakeCommand.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C24CAD01D5DBF1F00A0A18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C24CACA1D5DBF1F00A0A18C = {
+			isa = PBXGroup;
+			children = (
+				6C24CAF11D5DC7BB00A0A18C /* VKShakeCommands */,
+				6C24CAED1D5DBF2A00A0A18C /* VKKeyCommands */,
+				6C24CAD51D5DBF1F00A0A18C /* VKKeyCommandsDemo */,
+				6C24CAD41D5DBF1F00A0A18C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C24CAD41D5DBF1F00A0A18C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C24CAD31D5DBF1F00A0A18C /* VKKeyCommandsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C24CAD51D5DBF1F00A0A18C /* VKKeyCommandsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6C24CAD91D5DBF1F00A0A18C /* AppDelegate.h */,
+				6C24CADA1D5DBF1F00A0A18C /* AppDelegate.m */,
+				6C24CADC1D5DBF1F00A0A18C /* ViewController.h */,
+				6C24CADD1D5DBF1F00A0A18C /* ViewController.m */,
+				6C24CADF1D5DBF2000A0A18C /* Main.storyboard */,
+				6C24CAE21D5DBF2000A0A18C /* Assets.xcassets */,
+				6C24CAE41D5DBF2000A0A18C /* LaunchScreen.storyboard */,
+				6C24CAE71D5DBF2000A0A18C /* Info.plist */,
+				6C24CAD61D5DBF1F00A0A18C /* Supporting Files */,
+			);
+			path = VKKeyCommandsDemo;
+			sourceTree = "<group>";
+		};
+		6C24CAD61D5DBF1F00A0A18C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C24CAD71D5DBF1F00A0A18C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C24CAED1D5DBF2A00A0A18C /* VKKeyCommands */ = {
+			isa = PBXGroup;
+			children = (
+				6C24CAEE1D5DBF2A00A0A18C /* VKKeyCommands.h */,
+				6C24CAEF1D5DBF2A00A0A18C /* VKKeyCommands.m */,
+			);
+			name = VKKeyCommands;
+			path = ../VKKeyCommands;
+			sourceTree = "<group>";
+		};
+		6C24CAF11D5DC7BB00A0A18C /* VKShakeCommands */ = {
+			isa = PBXGroup;
+			children = (
+				6C24CAF21D5DC7D000A0A18C /* UIWindow+VKShakeCommand.h */,
+				6C24CAF31D5DC7D000A0A18C /* UIWindow+VKShakeCommand.m */,
+				6C24CAF51D5DCD1800A0A18C /* VKShakeCommand.h */,
+				6C24CAF61D5DCD1800A0A18C /* VKShakeCommand.m */,
+			);
+			name = VKShakeCommands;
+			path = ../VKShakeCommands;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C24CAD21D5DBF1F00A0A18C /* VKKeyCommandsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C24CAEA1D5DBF2000A0A18C /* Build configuration list for PBXNativeTarget "VKKeyCommandsDemo" */;
+			buildPhases = (
+				6C24CACF1D5DBF1F00A0A18C /* Sources */,
+				6C24CAD01D5DBF1F00A0A18C /* Frameworks */,
+				6C24CAD11D5DBF1F00A0A18C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKKeyCommandsDemo;
+			productName = VKKeyCommandsDemo;
+			productReference = 6C24CAD31D5DBF1F00A0A18C /* VKKeyCommandsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C24CACB1D5DBF1F00A0A18C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = baidu;
+				TargetAttributes = {
+					6C24CAD21D5DBF1F00A0A18C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6C24CACE1D5DBF1F00A0A18C /* Build configuration list for PBXProject "VKKeyCommandsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C24CACA1D5DBF1F00A0A18C;
+			productRefGroup = 6C24CAD41D5DBF1F00A0A18C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C24CAD21D5DBF1F00A0A18C /* VKKeyCommandsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C24CAD11D5DBF1F00A0A18C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C24CAE61D5DBF2000A0A18C /* LaunchScreen.storyboard in Resources */,
+				6C24CAE31D5DBF2000A0A18C /* Assets.xcassets in Resources */,
+				6C24CAE11D5DBF2000A0A18C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C24CACF1D5DBF1F00A0A18C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C24CADE1D5DBF1F00A0A18C /* ViewController.m in Sources */,
+				6C24CAF71D5DCD1800A0A18C /* VKShakeCommand.m in Sources */,
+				6C24CADB1D5DBF1F00A0A18C /* AppDelegate.m in Sources */,
+				6C24CAD81D5DBF1F00A0A18C /* main.m in Sources */,
+				6C24CAF01D5DBF2A00A0A18C /* VKKeyCommands.m in Sources */,
+				6C24CAF41D5DC7D000A0A18C /* UIWindow+VKShakeCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C24CADF1D5DBF2000A0A18C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C24CAE01D5DBF2000A0A18C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C24CAE41D5DBF2000A0A18C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C24CAE51D5DBF2000A0A18C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C24CAE81D5DBF2000A0A18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C24CAE91D5DBF2000A0A18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C24CAEB1D5DBF2000A0A18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VKKeyCommandsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.VKKeyCommandsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C24CAEC1D5DBF2000A0A18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VKKeyCommandsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.VKKeyCommandsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C24CACE1D5DBF1F00A0A18C /* Build configuration list for PBXProject "VKKeyCommandsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C24CAE81D5DBF2000A0A18C /* Debug */,
+				6C24CAE91D5DBF2000A0A18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C24CAEA1D5DBF2000A0A18C /* Build configuration list for PBXNativeTarget "VKKeyCommandsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C24CAEB1D5DBF2000A0A18C /* Debug */,
+				6C24CAEC1D5DBF2000A0A18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C24CACB1D5DBF1F00A0A18C /* Project object */;
+}
